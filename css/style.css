@@ -1,3 +1,15 @@
+/* Utility */
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+/* /fine Utility */
+
 .products-row {
   text-align: center;
   margin-top: 25px;
@@ -13,22 +25,17 @@
   position: absolute;
   top: 0;
   right: 0;
+  font-size: 25px;
 }
 
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: green;
-}
 
 .heart {
   position: absolute;
   bottom: 5px;
-  left: 50%;
+  width: 100%;
+  text-align: center;
   display: none;
-  font-size: 35px;
+  font-size: 50px;
   color: red;
 }
 
