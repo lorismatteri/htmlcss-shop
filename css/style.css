@@ -1,6 +1,37 @@
 .products-row {
   width: 70%;
-  height: 100px;
-  background: red;
   margin: auto;
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.heart {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  display: none;
+  font-size: 25px;
+  color: red;
+}
+
+.product:hover .heart{
+  display: block;
 }
